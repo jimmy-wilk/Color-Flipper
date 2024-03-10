@@ -22,7 +22,7 @@
 
     document.querySelector(".input").addEventListener("click", () =>{
     document.querySelector(".body").style.background = document.querySelector("#input").value.toLowerCase()
-    document.querySelector("#input").value=""})
+    document.querySelector("#input").value=""});
 
     
     // document.querySelector(".input").addEventListener("click", () => {
