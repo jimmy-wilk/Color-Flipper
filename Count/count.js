@@ -1,10 +1,12 @@
-let innerdigit = document.querySelector(".digit").innerHTML = 0
-// innerdigit = 0
+let invalue = document.querySelector(".digit").innerHTML
+let innerdigit = 0
 let decrease = document.querySelector(".dec")
 let reset = document.querySelector(".reset")
 let increase = document.querySelector(".inc")
 decrease.addEventListener("click",()=>{
-    innerdigit--
+   
+    invalue.innerHTML = --innerdigit;
+
 })
 reset.addEventListener("click",()=>{
     innerdigit = 0
