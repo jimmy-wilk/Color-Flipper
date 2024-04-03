@@ -1,0 +1,28 @@
+.class{
+    height: 100vh;
+    display: inline;
+    position: relative;
+    top:50vh;
+}
+
+.ground{
+    position: absolute;
+    animation: ground 10s linear infinite;
+}
+
+@keyframes ground {
+
+    from{
+        transform: translateX(0);   
+    }
+    to{
+        transform: translateX(1000px);   
+
+    }
+    
+}
+
+
+
+  
+
